@@ -6,7 +6,7 @@ async function main() {
 
   await school.deployed( process.env.MY_ACC );
 
-  console.log("School deployed to:", school.address);
+  console.log("School deployed to: ", school.address);
 }
 
 main().catch((error) => {
